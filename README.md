@@ -36,21 +36,30 @@ cabs 846654 len(settings) 1
 1
 len(db) 846654
 ======================== NUM SNAPS  24 according to squeeze 24 ========================
+
 Data dimensions (846654, 3) min_vals  [ 3.7607930e+01 -1.2245129e+02  1.2110184e+09] max_vals  [ 3.78079200e+01 -1.22211340e+02  1.26072471e+09]
+
 Data size: 13807.306666666667 hours in the temp. 21103.56261858769 meters in lon. 22262.686809999963 meters in lat.
+
 Approx query size: 23.97101851851852 hours in temp. 36.638129546159185 meters in lon. 38.65049793402771 meters in lat.
+
 [0.01736111 0.01736111 0.01736111] 0.017361111111111112
 [1 1 1] [0. 0. 0.]
+
 Histogram min 0  max 61  mean 0.004422746404535323 median 0.0 sum 845200  Percentiles [25,50,75,95,99] [0. 0. 0. 0. 0.]
 grid_val_noisy mem size 1458.0
+
 Noisy Histogram min -88.14647912196452  max 92.67523937383527  mean 0.005002342404628596 median 0.002736341412788847
+
 Generated test_loc results 2000 at 12.933814287185669 seconds  min 0  max 54  mean 7.438 median 25tile 75tile:  5.0 2.0 10.0
+
 There are  24 data filled slices.
+
 _train_h Mean 0.1068140995737103 max 77.87652824615176 min -87.69362722079335 Percentiles [10, 25, 50, 75, 95] [-4.47663357 -1.87198272  0.07025465  2.04426261  7.28331811]
+
 train_data_variance 22.462744002789577
 _train_h.shape (72, 576, 576, 1) each batch has shape (4, 576, 576, 1)
-/home/users/ritesh/miniconda3/envs/jax_gpu/lib/python3.8/site-packages/jax/_src/numpy/lax_numpy.py:3035: UserWarning: Explicitly requested dtype float64 requested in zeros is not available, and will be truncated to dtype float32. To enable more dtypes, set the jax_enable_x64 configuration option or the JAX_ENABLE_X64 shell environment variable. See https://github.com/google/jax#current-gotchas for more.
-  lax._check_user_dtype_supported(dtype, "zeros")
+
 Training VQCONV for epochs  750 batches 18
 0 Loss: 1.07852447 vae_mae : 7.1133 id_mae : 5.0003 vae_re5 : 0.6300  id_re5 : 0.7668  vae_re10 : 0.4866  id_re10 : 0.4541  vae_re20 : 0.3189  id_re20 : 0.2452  time : 6.809430837631226
 
