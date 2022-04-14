@@ -105,8 +105,8 @@ Training VQCONV for epochs  750 batches 18
 200 Loss: 0.67333502 vae_mae : 3.9890 id_mae : 5.0003 vae_re20 : 0.1837  time : 757.6599857807159
 
 210 Loss: 0.67543018 vae_mae : 3.9525 id_mae : 5.0003 vae_re20 : 0.1822  time : 795.2138011455536
-...
-280 Loss: 0.67564249 vae_mae : 3.8769 id_mae : 5.0003 vae_re20 : 0.1795  time : 1058.0666770935059
+
+280 Loss: 0.67564249 vae_mae : 3.8169 id_mae : 5.0003 vae_re20 : 0.1795  time : 1058.0666770935059
 
 ## References
 [1] Michal Piorkowski, Natasa Sarafijanovic-Djukic, and Matthias Grossglauser. 2009.CRAWDAD data set epfl/mobility (v. 2009-02-24)
