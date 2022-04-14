@@ -36,47 +36,77 @@ cabs 846654 len(settings) 1
 1
 len(db) 846654
 ======================== NUM SNAPS  24 according to squeeze 24 ========================
+
 Data dimensions (846654, 3) min_vals  [ 3.7607930e+01 -1.2245129e+02  1.2110184e+09] max_vals  [ 3.78079200e+01 -1.22211340e+02  1.26072471e+09]
+
 Data size: 13807.306666666667 hours in the temp. 21103.56261858769 meters in lon. 22262.686809999963 meters in lat.
+
 Approx query size: 23.97101851851852 hours in temp. 36.638129546159185 meters in lon. 38.65049793402771 meters in lat.
+
 [0.01736111 0.01736111 0.01736111] 0.017361111111111112
 [1 1 1] [0. 0. 0.]
+
 Histogram min 0  max 61  mean 0.004422746404535323 median 0.0 sum 845200  Percentiles [25,50,75,95,99] [0. 0. 0. 0. 0.]
 grid_val_noisy mem size 1458.0
+
 Noisy Histogram min -88.14647912196452  max 92.67523937383527  mean 0.005002342404628596 median 0.002736341412788847
+
 Generated test_loc results 2000 at 12.933814287185669 seconds  min 0  max 54  mean 7.438 median 25tile 75tile:  5.0 2.0 10.0
+
 There are  24 data filled slices.
+
 _train_h Mean 0.1068140995737103 max 77.87652824615176 min -87.69362722079335 Percentiles [10, 25, 50, 75, 95] [-4.47663357 -1.87198272  0.07025465  2.04426261  7.28331811]
+
 train_data_variance 22.462744002789577
 _train_h.shape (72, 576, 576, 1) each batch has shape (4, 576, 576, 1)
-/home/users/ritesh/miniconda3/envs/jax_gpu/lib/python3.8/site-packages/jax/_src/numpy/lax_numpy.py:3035: UserWarning: Explicitly requested dtype float64 requested in zeros is not available, and will be truncated to dtype float32. To enable more dtypes, set the jax_enable_x64 configuration option or the JAX_ENABLE_X64 shell environment variable. See https://github.com/google/jax#current-gotchas for more.
-  lax._check_user_dtype_supported(dtype, "zeros")
-Training VQCONV for epochs  750 batches 18
-0 Loss: 1.07852447 vae_mae : 7.1133 id_mae : 5.0003 vae_re5 : 0.6300  id_re5 : 0.7668  vae_re10 : 0.4866  id_re10 : 0.4541  vae_re20 : 0.3189  id_re20 : 0.2452  time : 6.809430837631226
-10 Loss: 0.89561599 vae_mae : 4.5922 id_mae : 5.0003 vae_re5 : 0.4533  id_re5 : 0.7668  vae_re10 : 0.3096  id_re10 : 0.4541  vae_re20 : 0.2018  id_re20 : 0.2452  time : 44.396788597106934
-20 Loss: 0.82908553 vae_mae : 4.4749 id_mae : 5.0003 vae_re5 : 0.4726  id_re5 : 0.7668  vae_re10 : 0.3151  id_re10 : 0.4541  vae_re20 : 0.1984  id_re20 : 0.2452  time : 81.97453165054321
-30 Loss: 0.77791733 vae_mae : 4.4070 id_mae : 5.0003 vae_re5 : 0.4751  id_re5 : 0.7668  vae_re10 : 0.3160  id_re10 : 0.4541  vae_re20 : 0.1968  id_re20 : 0.2452  time : 119.54707360267639
-40 Loss: 0.75882417 vae_mae : 4.3414 id_mae : 5.0003 vae_re5 : 0.4816  id_re5 : 0.7668  vae_re10 : 0.3176  id_re10 : 0.4541  vae_re20 : 0.1952  id_re20 : 0.2452  time : 157.09501242637634
-50 Loss: 0.74739593 vae_mae : 4.2074 id_mae : 5.0003 vae_re5 : 0.4735  id_re5 : 0.7668  vae_re10 : 0.3108  id_re10 : 0.4541  vae_re20 : 0.1895  id_re20 : 0.2452  time : 194.62223172187805
-60 Loss: 0.73977876 vae_mae : 4.1342 id_mae : 5.0003 vae_re5 : 0.4735  id_re5 : 0.7668  vae_re10 : 0.3088  id_re10 : 0.4541  vae_re20 : 0.1870  id_re20 : 0.2452  time : 232.1827037334442
-70 Loss: 0.73555321 vae_mae : 4.2247 id_mae : 5.0003 vae_re5 : 0.4884  id_re5 : 0.7668  vae_re10 : 0.3184  id_re10 : 0.4541  vae_re20 : 0.1918  id_re20 : 0.2452  time : 269.7674515247345
-80 Loss: 0.71234769 vae_mae : 4.3001 id_mae : 5.0003 vae_re5 : 0.5020  id_re5 : 0.7668  vae_re10 : 0.3265  id_re10 : 0.4541  vae_re20 : 0.1956  id_re20 : 0.2452  time : 307.305330991745
-90 Loss: 0.69417262 vae_mae : 4.2565 id_mae : 5.0003 vae_re5 : 0.4959  id_re5 : 0.7668  vae_re10 : 0.3230  id_re10 : 0.4541  vae_re20 : 0.1940  id_re20 : 0.2452  time : 344.8118648529053
-100 Loss: 0.68460965 vae_mae : 4.1163 id_mae : 5.0003 vae_re5 : 0.4918  id_re5 : 0.7668  vae_re10 : 0.3158  id_re10 : 0.4541  vae_re20 : 0.1880  id_re20 : 0.2452  time : 382.3187086582184
-110 Loss: 0.68375659 vae_mae : 4.0784 id_mae : 5.0003 vae_re5 : 0.4886  id_re5 : 0.7668  vae_re10 : 0.3135  id_re10 : 0.4541  vae_re20 : 0.1865  id_re20 : 0.2452  time : 419.8280494213104
-120 Loss: 0.67941034 vae_mae : 4.0346 id_mae : 5.0003 vae_re5 : 0.4926  id_re5 : 0.7668  vae_re10 : 0.3133  id_re10 : 0.4541  vae_re20 : 0.1849  id_re20 : 0.2452  time : 457.3497130870819
-130 Loss: 0.67818046 vae_mae : 4.2066 id_mae : 5.0003 vae_re5 : 0.4993  id_re5 : 0.7668  vae_re10 : 0.3222  id_re10 : 0.4541  vae_re20 : 0.1923  id_re20 : 0.2452  time : 494.8889949321747
-140 Loss: 0.67680240 vae_mae : 4.0577 id_mae : 5.0003 vae_re5 : 0.4926  id_re5 : 0.7668  vae_re10 : 0.3144  id_re10 : 0.4541  vae_re20 : 0.1860  id_re20 : 0.2452  time : 532.4169631004333
-150 Loss: 0.68126178 vae_mae : 3.9777 id_mae : 5.0003 vae_re5 : 0.4845  id_re5 : 0.7668  vae_re10 : 0.3087  id_re10 : 0.4541  vae_re20 : 0.1824  id_re20 : 0.2452  time : 569.922712802887
-160 Loss: 0.67663527 vae_mae : 4.0975 id_mae : 5.0003 vae_re5 : 0.4969  id_re5 : 0.7668  vae_re10 : 0.3179  id_re10 : 0.4541  vae_re20 : 0.1883  id_re20 : 0.2452  time : 607.4535751342773
-170 Loss: 0.67851412 vae_mae : 3.9950 id_mae : 5.0003 vae_re5 : 0.4874  id_re5 : 0.7668  vae_re10 : 0.3113  id_re10 : 0.4541  vae_re20 : 0.1837  id_re20 : 0.2452  time : 644.9919319152832
-180 Loss: 0.67981434 vae_mae : 4.3227 id_mae : 5.0003 vae_re5 : 0.5135  id_re5 : 0.7668  vae_re10 : 0.3328  id_re10 : 0.4541  vae_re20 : 0.1984  id_re20 : 0.2452  time : 682.5634868144989
-190 Loss: 0.67378974 vae_mae : 4.0437 id_mae : 5.0003 vae_re5 : 0.4937  id_re5 : 0.7668  vae_re10 : 0.3152  id_re10 : 0.4541  vae_re20 : 0.1860  id_re20 : 0.2452  time : 720.1283006668091
-200 Loss: 0.67333502 vae_mae : 3.9890 id_mae : 5.0003 vae_re5 : 0.4906  id_re5 : 0.7668  vae_re10 : 0.3122  id_re10 : 0.4541  vae_re20 : 0.1837  id_re20 : 0.2452  time : 757.6599857807159
-210 Loss: 0.67543018 vae_mae : 3.9525 id_mae : 5.0003 vae_re5 : 0.4912  id_re5 : 0.7668  vae_re10 : 0.3110  id_re10 : 0.4541  vae_re20 : 0.1822  id_re20 : 0.2452  time : 795.2138011455536
-...
-280 Loss: 0.67564249 vae_mae : 3.8769 id_mae : 5.0003 vae_re5 : 0.4861  id_re5 : 0.7668  vae_re10 : 0.3074  id_re10 : 0.4541  vae_re20 : 0.1795  id_re20 : 0.2452  time : 1058.0666770935059
 
+Training VQCONV for epochs  750 batches 18
+
+0 Loss: 1.07852447 vae_mae : 7.1133 id_mae : 5.0003 vae_re20 : 0.3189  time : 6.809430837631226
+
+10 Loss: 0.89561599 vae_mae : 4.5922 id_mae : 5.0003 vae_re20 : 0.2018  time : 44.396788597106934
+
+20 Loss: 0.82908553 vae_mae : 4.4749 id_mae : 5.0003 vae_re20 : 0.1984  time : 81.97453165054321
+
+30 Loss: 0.77791733 vae_mae : 4.4070 id_mae : 5.0003 vae_re20 : 0.1968  time : 119.54707360267639
+
+40 Loss: 0.75882417 vae_mae : 4.3414 id_mae : 5.0003 vae_re20 : 0.1952  time : 157.09501242637634
+
+50 Loss: 0.74739593 vae_mae : 4.2074 id_mae : 5.0003 vae_re20 : 0.1895  time : 194.62223172187805
+
+60 Loss: 0.73977876 vae_mae : 4.1342 id_mae : 5.0003 vae_re20 : 0.1870  time : 232.1827037334442
+
+70 Loss: 0.73555321 vae_mae : 4.2247 id_mae : 5.0003 vae_re20 : 0.1918  time : 269.7674515247345
+
+80 Loss: 0.71234769 vae_mae : 4.3001 id_mae : 5.0003 vae_re20 : 0.1956  time : 307.305330991745
+
+90 Loss: 0.69417262 vae_mae : 4.2565 id_mae : 5.0003 vae_re20 : 0.1940  time : 344.8118648529053
+
+100 Loss: 0.68460965 vae_mae : 4.1163 id_mae : 5.0003 vae_re20 : 0.1880  time : 382.3187086582184
+
+110 Loss: 0.68375659 vae_mae : 4.0784 id_mae : 5.0003 vae_re20 : 0.1865  time : 419.8280494213104
+
+120 Loss: 0.67941034 vae_mae : 4.0346 id_mae : 5.0003 vae_re20 : 0.1849  time : 457.3497130870819
+
+130 Loss: 0.67818046 vae_mae : 4.2066 id_mae : 5.0003 vae_re20 : 0.1923  time : 494.8889949321747
+
+140 Loss: 0.67680240 vae_mae : 4.0577 id_mae : 5.0003 vae_re20 : 0.1860  time : 532.4169631004333
+
+150 Loss: 0.68126178 vae_mae : 3.9777 id_mae : 5.0003 vae_re20 : 0.1824  time : 569.922712802887
+
+160 Loss: 0.67663527 vae_mae : 4.0975 id_mae : 5.0003 vae_re20 : 0.1883  time : 607.4535751342773
+
+170 Loss: 0.67851412 vae_mae : 3.9950 id_mae : 5.0003 vae_re20 : 0.1837  time : 644.9919319152832
+
+180 Loss: 0.67981434 vae_mae : 4.3227 id_mae : 5.0003 vae_re20 : 0.1984  time : 682.5634868144989
+
+190 Loss: 0.67378974 vae_mae : 4.0437 id_mae : 5.0003 vae_re20 : 0.1860  time : 720.1283006668091
+
+200 Loss: 0.67333502 vae_mae : 3.9890 id_mae : 5.0003 vae_re20 : 0.1837  time : 757.6599857807159
+
+210 Loss: 0.67543018 vae_mae : 3.9525 id_mae : 5.0003 vae_re20 : 0.1822  time : 795.2138011455536
+
+280 Loss: 0.67564249 vae_mae : 3.8169 id_mae : 5.0003 vae_re20 : 0.1795  time : 1058.0666770935059
 
 ## References
 [1] Michal Piorkowski, Natasa Sarafijanovic-Djukic, and Matthias Grossglauser. 2009.CRAWDAD data set epfl/mobility (v. 2009-02-24)
