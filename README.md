@@ -27,7 +27,7 @@ Running VDR can be done by calling python run.py. VDR configureations are set in
 VDR model's training and testing statistic is written in the file tests/config['NAME']/i/out.txt
 
 ## Example
-The folder data contains two datasets: CABS_SF_SE.npy (from [1]). We consider releasing CABS_SF.npy with differential privacy. Calling python run.py performs training and testing with this setting. For example, the result of the zero-th trained model will be written in tests/test_sf_cabs/0/out.txt. A sample output for that file is 
+The folder data contains three datasets: CABS_SF (from [1]), 4SQ_TKY and gowalla_SF. We consider releasing CABS_SF with differential privacy. Calling python run.py performs training and testing with this setting. For example, the result of the zero-th trained model will be written in tests/test_sf_cabs/0/out.txt. A sample output for that file is 
 
 >Creating model 
 
